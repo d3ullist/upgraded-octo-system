@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpgradeOctoSystem.Api", "UpgradeOctoSystem.Api\UpgradeOctoSystem.Api.csproj", "{011D3E3A-1AD5-4B54-887A-8900BBCBBD57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpgradeOctoSystem.Database", "UpgradeOctoSystem.Database\UpgradeOctoSystem.Database.csproj", "{8AA14E3E-1A1F-4BE8-BEA5-D7CD9D0BA44B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9ADE08F3-64A3-4ED8-9DCB-F2D35A31F6B7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.vsconfig = .vsconfig
+		extensions.vsext = extensions.vsext
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpgradeOctoSystem.Abstractions", "UpgradeOctoSystem.Abstractions\UpgradeOctoSystem.Abstractions.csproj", "{6AA581BB-6EAB-4695-AAF0-6561B77A911A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{011D3E3A-1AD5-4B54-887A-8900BBCBBD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011D3E3A-1AD5-4B54-887A-8900BBCBBD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011D3E3A-1AD5-4B54-887A-8900BBCBBD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011D3E3A-1AD5-4B54-887A-8900BBCBBD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA14E3E-1A1F-4BE8-BEA5-D7CD9D0BA44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA14E3E-1A1F-4BE8-BEA5-D7CD9D0BA44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA14E3E-1A1F-4BE8-BEA5-D7CD9D0BA44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA14E3E-1A1F-4BE8-BEA5-D7CD9D0BA44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA581BB-6EAB-4695-AAF0-6561B77A911A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA581BB-6EAB-4695-AAF0-6561B77A911A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA581BB-6EAB-4695-AAF0-6561B77A911A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA581BB-6EAB-4695-AAF0-6561B77A911A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B974D28C-14FB-442C-8F63-1E774B6036D0}
+	EndGlobalSection
+EndGlobal
